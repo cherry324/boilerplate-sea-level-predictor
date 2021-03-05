@@ -9,6 +9,7 @@ def draw_plot():
 
     # Create scatter plot
 
+    plt.scatter(df['Year'], df['CSIRO Adjusted Sea Level'])
 
     # Create first line of best fit
 
